@@ -21,3 +21,12 @@ ul li:hover{
   background-color: black;
   padding: 0px 0px 0px 2%;
 }
+
+.form{
+  margin-top:100px;
+}
+
+.form input{
+  text-size:16px;
+  width: 100px;
+}
