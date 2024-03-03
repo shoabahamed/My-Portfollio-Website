@@ -1,0 +1,61 @@
+@media only screen and (max-width: 700px) {
+  #header{
+    display:none;
+  }
+
+  #header-small{
+      display: block;
+  }
+  #header-small nav .fas{
+    display: block;
+    font-size: 27px;
+  }
+
+  #header-small nav ul{
+    background: #87CEEB;
+    position: fixed;
+    top: 0;
+    right:-500px;
+    width:30%;
+    height:100vh;
+    padding-top:5rem;
+    z-index: 2;
+    transition: right 0.5s;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    align-items: center;
+    font-size: 0.9em;
+  }
+
+  #header-small nav ul .fas{
+    position: absolute;
+    top: 1.5vh;
+    cursor: pointer;
+  } 
+  #header-small nav ul li{
+    display: block;
+  }
+
+  .work .btn-update, .work .btn-delete{
+    padding: auto;
+  }
+
+  .section textarea{
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .work .btn-update, .work .btn-delete{
+    width: 6.5rem;
+  }
+
+  .section input[type="text"],
+  .section textarea {
+    font-size: 14px;
+  }
+
+
+
+}

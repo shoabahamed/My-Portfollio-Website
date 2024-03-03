@@ -1,0 +1,57 @@
+/* about-me */
+.about-me{
+  padding: 1rem;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+}
+
+.about-me,.projects h1{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.section label {
+  font-weight: bold;
+}
+
+.section input[type="text"],
+.section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #448a86;
+  border-radius: 5px;
+  color: rgb(36, 36, 36);
+}
+
+.section textarea {
+  resize: vertical; 
+}
+.section input[type="text"] :focus,
+.section textarea :focus {
+  outline: none;
+  border-color: rgb(26, 26, 26);
+}
+
+
+.save-btn {
+  border: 0.1rem solid #1565C0; 
+  color: #1565C0;
+  padding: 0.7rem 1.1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.save-btn:hover {
+  background: #1565C0; 
+  color: #E0F2F1
+}
+
+.success-msg{
+  color: green;
+  font-size: 0.9em;
+  display: none;
+}

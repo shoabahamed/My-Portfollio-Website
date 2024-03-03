@@ -1,0 +1,33 @@
+#about{
+  margin: 30px 0;
+  background-color: #E0F2F1; 
+}
+
+#about .title{
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  height: 10%;
+  margin-bottom: 3rem;
+}
+
+.about-me-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.second-image-container{
+  flex-basis: 30%;
+}
+
+.about-me-text{
+  flex-basis: 60%;
+}
+
+.second-portfolio-image{
+  width: 250px;
+  height: 400px;
+}
